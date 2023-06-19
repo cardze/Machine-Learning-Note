@@ -17,7 +17,9 @@ of eigenvalues of $X^TX$ where X is the data.
 ## ICA(Independent components analysis)
 1. For distinguish the source from Mixed Data => Blind Source Separation.
 2. ICA will choose the base vector which more fit on the data distribution.
+
 ![](./media/ICA_vs_PCA.png)
 
 ## LDA(Linear discriminant analysis)
 1. If we are dealing with the data which has k classes, the max number of dimension after LDA is (k-1). => because we only need k-1 lines devide the data into k classes.
+2. supervised learning approach.
